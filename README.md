@@ -17,4 +17,4 @@ Rift has some built in commands as you can see below in the image.
 <img width="584" height="482" alt="Screenshot 2026-06-22 at 1 54 18 AM" src="https://github.com/user-attachments/assets/7083fa54-a924-41fa-a64f-935247dc490f" />
 
 
-* Using ``/apikey set <apikey>`` allows you to set your prefered key, the key is primarly stored in Apple Keychain.
+* Using ``/apikey set <apikey>`` allows you to set your prefered key, the key is primarly stored in Apple Keychain. ( API KEY SETTING IS BROKEN ) I am not sure if this works on external devices from mine, I have not trialed or created for windows, or linux use just yet.
