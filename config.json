@@ -1,0 +1,23 @@
+{
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "base_url": "https://integrate.api.nvidia.com/v1",
+  "api_key_env": "NVIDIA_API_KEY",
+  "keychain_service": "rift",
+  "keychain_account": "nvidia_api_key",
+  "capabilities": {
+    "file_access": true,
+    "web": true,
+    "tools": true,
+    "active_control": true
+  },
+  "system_prompt_path": "soul.md",
+  "max_tokens": 4096,
+  "temperature": 0.7,
+  "approval": {
+    "default_policy": "on_request",
+    "auto_approve_safe": true,
+    "require_for_shell": true,
+    "require_for_web": false
+  },
+  "session_dir": ".sessions"
+}
