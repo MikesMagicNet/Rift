@@ -1,0 +1,38 @@
+{
+  "nvidia/nemotron-3-ultra-550b-a55b": {
+    "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "context_length": 128000,
+    "vision": false,
+    "supports_thinking": true,
+    "supports_tool_use": true,
+    "reasoning_effort": null,
+    "cached_at": 1782092357.937671
+  },
+  "nvidia/nemotron-3-super-120b-a12b": {
+    "model_id": "nvidia/nemotron-3-super-120b-a12b",
+    "context_length": 128000,
+    "vision": false,
+    "supports_thinking": true,
+    "supports_tool_use": true,
+    "reasoning_effort": null,
+    "cached_at": 1782092357.937672
+  },
+  "nvidia/nemotron-4-340b-instruct": {
+    "model_id": "nvidia/nemotron-4-340b-instruct",
+    "context_length": 128000,
+    "vision": false,
+    "supports_thinking": true,
+    "supports_tool_use": true,
+    "reasoning_effort": null,
+    "cached_at": 1782092357.9376729
+  },
+  "meta/llama-3.2-90b-vision-instruct": {
+    "model_id": "meta/llama-3.2-90b-vision-instruct",
+    "context_length": 128000,
+    "vision": true,
+    "supports_thinking": true,
+    "supports_tool_use": true,
+    "reasoning_effort": null,
+    "cached_at": 1782092357.9376729
+  }
+}

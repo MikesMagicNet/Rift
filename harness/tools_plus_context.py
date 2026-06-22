@@ -32,7 +32,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Any, Callable, Optional
 
 # Shared primitives from the agent core layer.
-from agentic_layer import (
+from harness.agentic_layer import (
     AgentMode,
     ContextCompactor,
     ToolRegistry,

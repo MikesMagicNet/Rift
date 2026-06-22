@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# rift — launch the Rift CLI from anywhere
+# Installed via: ln -sf /Users/michael/Desktop/Rift/bin/rift /usr/local/bin/rift
+
+RIFT_HOME="$(cd "$(dirname "$(readlink -f "$0" 2>/dev/null || realpath "$0" 2>/dev/null || echo "$0")")" && cd .. && pwd)"
+
+exec /usr/local/bin/python3 "${RIFT_HOME}/harness/cli.py" "$@"
